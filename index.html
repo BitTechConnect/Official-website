@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CORESPACE — Enter The Future | Bearys Institute of Technology</title>
+    <meta
+      name="description"
+      content="CORESPACE is the student technology community platform for Bearys Institute of Technology, Mangalore — connecting curious minds, hackathons, projects, opportunities, and resources."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CORESPACE" />
+    <meta property="og:title" content="CORESPACE — Enter The Future | Bearys Institute of Technology" />
+    <meta
+      property="og:description"
+      content="Connecting curious minds, building innovative ideas, discovering opportunities and growing a stronger technology community at Bearys Institute of Technology, Mangalore."
+    />
+    <meta property="og:image" content="/assets/aistudio/CoreSpace_ Nature Meets Cosmic Technology.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CORESPACE — Enter The Future" />
+    <meta
+      name="twitter:description"
+      content="Technology community platform for Bearys Institute of Technology, Mangalore. Nature × Technology × Futuristic Cyber World."
+    />
+    <meta name="twitter:image" content="/assets/aistudio/CoreSpace_ Nature Meets Cosmic Technology.png" />
+    <link rel="icon" type="image/png" href="/assets/aistudio/CoreSpace_ Nature Meets Cosmic Technology.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "CORESPACE",
+        "alternateName": "Bearys Institute of Technology CORESPACE",
+        "description": "Connecting curious minds, building innovative ideas, discovering opportunities and growing a stronger technology community at Bearys Institute of Technology, Mangalore.",
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "name": "Bearys Institute of Technology",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mangalore",
+            "addressRegion": "Karnataka",
+            "addressCountry": "IN"
+          },
+          "url": "https://www.bitmangalore.edu.in/"
+        }
+      }
+    </script>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('bit-tech-connect-theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = saved === 'light' || saved === 'dark' ? saved : (prefersDark ? 'dark' : 'light');
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-gradient-to-br from-[#d9f9ec] via-[#dbeafe] to-[#e0e7ff] text-slate-900 dark:from-[#020614] dark:via-[#040d21] dark:to-[#031412] dark:text-slate-100 antialiased selection:bg-[#16A34A]/25 selection:text-[#16A34A]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
